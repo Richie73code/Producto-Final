@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="resultados.html" methd="get">
+        <div>
+            <label for="nombre">Usuario</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+        </div>
+        <br>
+        <div>
+            <label for="pass">Contraseña</label>
+            <input type="password" name="pass" id="pass" placeholder="Contraseña">
+        </div>
+        <br>
+        
+        <div>
+            <label for="correo">Correo Electronico</label>
+            <input type="email" name="mail" id="correo">
+
+        </div>
+        <br>
+        <div>
+            <label for="comentario">Comentario</label>
+            <input type="text" name="commets" id="comentario" required>
+
+        </div>
+        <br>
+        <div>
+            <label for="fechanacimiento">Fecha de nacimiento</label>
+            <input type="date" name="born" id="fechanacimiento" required>
+
+        </div>
+        <br>
+        <div>
+            <label for="edad">Edad:</label>
+            <input type="number" name="years" id="edad" min="18" required>
+
+        </div>
+        <br>
+        <button type="submit">Gaurdar</button>
+        <button type="reset">Limpiar</button>
+    </form>
+</body>
+</html>
